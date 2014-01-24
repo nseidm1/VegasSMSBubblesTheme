@@ -16,7 +16,7 @@
         <meta-data android:name="vegas_messager_theme" android:value="Bubbles"/>
         
         <!-- Specify the incoming and outgoing message font colors here -->
-        <!-- This is useful to create contract with your message backgrounds -->
+        <!-- This is useful to create contrast with your message backgrounds -->
         <meta-data android:name="vegas_messager_incoming_font_color" android:value="\ 000000"/>
         <meta-data android:name="vegas_messager_outgoing_font_color" android:value="\ 000000"/>
         
