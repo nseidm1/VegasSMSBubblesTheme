@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.vegasbubbles"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/send"
+        android:label="Vegas Bubbles Theme">
+        <!-- The name here must be vegas_messager_theme, this is how Vegas SMS detects the theme, specify the name of the theme in the value -->
+        <meta-data android:name="vegas_messager_theme" android:value="Bubbles"/>
+        
+		<activity
+            android:name=".ThemePicker"
+            android:excludeFromRecents="true"
+            android:theme="@style/Transparent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>        
+    </application>
+</manifest>
