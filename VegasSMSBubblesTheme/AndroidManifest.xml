@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.project.vegasbubbles"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="2"
+    android:versionName="1.1" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -15,8 +15,11 @@
         <!-- The name here must be vegas_messager_theme, this is how Vegas SMS detects the theme, specify the name of the theme in the value -->
         <meta-data android:name="vegas_messager_theme" android:value="Bubbles"/>
         
-		<activity
-            android:name=".ThemePicker"
+        <meta-data android:name="vegas_messager_incoming_font_color" android:value="\ 000000"/>
+        <meta-data android:name="vegas_messager_outgoing_font_color" android:value="\ 000000"/>
+        
+       	<activity
+            android:name=".VegasSMSBubbleTheme"
             android:excludeFromRecents="true"
             android:theme="@style/Transparent" >
             <intent-filter>
