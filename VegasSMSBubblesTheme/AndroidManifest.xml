@@ -17,6 +17,7 @@
         
         <!-- Specify the incoming and outgoing message font colors here -->
         <!-- This is useful to create contrast with your message backgrounds -->
+        <!-- You must include the escaped space in front of the hex color value without the pound symbol -->
         <meta-data android:name="vegas_messager_incoming_font_color" android:value="\ 000000"/>
         <meta-data android:name="vegas_messager_outgoing_font_color" android:value="\ 000000"/>
         
