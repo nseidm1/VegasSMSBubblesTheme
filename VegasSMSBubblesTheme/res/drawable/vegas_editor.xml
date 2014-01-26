@@ -1,0 +1,5 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:exitFadeDuration="500">
+    <item android:drawable="@drawable/outgoing_selected" android:state_pressed="true"/>
+    <item android:drawable="@drawable/outgoing_selected" android:state_selected="true"/>
+    <item android:drawable="@drawable/outgoing"/>
+</selector> 
